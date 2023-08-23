@@ -4,9 +4,9 @@
 
 با اجرای دوباره دستور نصب برنامه ؛ آپدیت کنید.
 
-برای اجرا به صورت مالتی پورت [اینجا](https://github.com/radkesvat/FakeTlsTunnel/blob/master/multiport.md) را مطالعه کنید.
+برای اجرا به صورت مالتی پورت [اینجا](https://github.com/danyalfa79/FakeTlsTunnel/blob/master/multiport.md) را مطالعه کنید.
 
-برای اجرا بر روی روتر [اینجا](https://github.com/radkesvat/FakeTlsTunnel/blob/master/asuswrt-merlin.md) را مطالعه کنید
+برای اجرا بر روی روتر [اینجا](https://github.com/danyalfa79/FakeTlsTunnel/blob/master/asuswrt-merlin.md) را مطالعه کنید
 
 # مقدمه کلی
 
@@ -41,7 +41,7 @@ tls handshake رو با دامنه کاملا دلخواه تکمیل کنید �
 سپس با این دستور فایل اجرایی برنامه رو دانلود کنید
 
 ```sh
-wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh 
+wget  "https://raw.githubusercontent.com/danyalfa79/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh 
 ```
 
 حالا میتونید برنامه رو به این شکل اجرا کنید 
@@ -50,7 +50,7 @@ wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.
 ```
 --lport :
 
-میگه که روی چه پورتی ران بشه ؛ این پورت مثلا میتونه 443 باشه یا پورت های دیگه.  و همون پورتی هست که کانفیگ دست کاربر بهش اشاره میکنه ؛ برنامه قابلیت مالتی پورت هم داره که میتونید بگید یه بازه پورت از پورت فلان تا فلان را بپذیره و فوراد بشه روی همون پورت روی سرور خارج که به قابلیت مالتی پورت معروفه ؛ توضحاتش توی یه [پیج جدا](https://github.com/radkesvat/FakeTlsTunnel/blob/master/multiport.md) دادم که میتونید مطالعه کنید
+میگه که روی چه پورتی ران بشه ؛ این پورت مثلا میتونه 443 باشه یا پورت های دیگه.  و همون پورتی هست که کانفیگ دست کاربر بهش اشاره میکنه ؛ برنامه قابلیت مالتی پورت هم داره که میتونید بگید یه بازه پورت از پورت فلان تا فلان را بپذیره و فوراد بشه روی همون پورت روی سرور خارج که به قابلیت مالتی پورت معروفه ؛ توضحاتش توی یه [پیج جدا](https://github.com/danyalfa79/FakeTlsTunnel/blob/master/multiport.md) دادم که میتونید مطالعه کنید
 
 --toip:
 
@@ -81,7 +81,7 @@ wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.
 
 برنامه رو اول دانلود کنید
 ```sh
-wget  "https://raw.githubusercontent.com/radkesvat/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
+wget  "https://raw.githubusercontent.com/danyalfa79/FakeTlsTunnel/master/install.sh" -O install.sh && chmod +x install.sh && bash install.sh
 ```
 حالا میتونیم به این شکل اجرا کنیم 
 ```sh
